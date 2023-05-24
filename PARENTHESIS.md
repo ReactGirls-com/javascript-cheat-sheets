@@ -118,3 +118,28 @@ Zde je jednoduchý tahák, který ukazuje, kde a v jakém případě používám
      }
      vypisOvoce(ovoce); // Výstup: První ovoce je jablko, druhé ovoce je banán.
      ```
+
+5. **Šipkové funkce `=>`**
+
+   - **Šipková funkce s jednoduchým výrazem bez složených závorek `{}`**: Když má funkce pouze jeden výraz, není třeba používat složené závorky. V tomto případě je `return` implicitní.
+
+     ```javascript
+     // Funkce, která vrací druhou mocninu čísla
+     let druhaMocnina = (cislo) => cislo * cislo;
+     console.log(druhaMocnina(5)); // Výstup: 25
+     ```
+
+     Tato funkce vezme jedno číslo jako vstup (parametr `cislo`) a vrátí jeho druhou mocninu. Slovo `return` není v tomto příkladu uvedeno, ale je implicitní, protože funkce má pouze jeden výraz (`cislo * cislo`).
+
+   - **Šipková funkce s více výrazy a složenými závorkami `{}`**: Pokud má funkce více výrazů, je třeba použít složené závorky a explicitně uvest slovo `return`.
+
+     ```javascript
+     // Funkce, která vypočítá obvod čtverce
+     let obvodCtverce = (strana) => {
+       let obvod = 4 * strana;
+       return obvod;
+     };
+     console.log(obvodCtverce(5)); // Výstup: 20
+     ```
+
+     Tato funkce vezme jedno číslo jako vstup (parametr `strana`), vypočítá obvod čtverce (výraz `4 * strana`), uloží jej do lokální proměnné `obvod` a vrátí tento výsledek. Protože máme více než jeden výraz (definice proměnné a vrácení hodnoty), musíme použít složené závorky a explicitně uvest slovo `return`.
