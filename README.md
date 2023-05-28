@@ -10,8 +10,8 @@ Zde najdete taháky z našich akademií
 - [Cykly](./loops.md)
 - [Funkce](./functions.md)
 - [Třídy](./classes.md)
-- [return](./return.md)
-- [this](./this.md)
+- [Klíčové slovo `return`](./return.md)
+- [Klíčové slovo `this`](./this.md)
 
 ## React
 
