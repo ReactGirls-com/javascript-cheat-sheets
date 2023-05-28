@@ -4,7 +4,7 @@ Zde najdete taháky z našich akademií
 
 ## Javascript
 
-- [Závorky](./parenthesis.md)
+- [Závorky](./parens.md)
 - [Destructuring](./destructuring.md)
 - [Interpolace](./interpolation.md)
 - [Cykly](./loops.md)
