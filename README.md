@@ -2,4 +2,17 @@
 
 Zde najdete taháky z našich akademií
 
-- [Jak na závorky v Javascriptu](./PARENTHESIS.md)
+## Javascript
+
+- [Závorky](./parenthesis.md)
+- [Destructuring](./destructuring.md)
+- [Interpolace](./interpolation.md)
+- [Cykly](./loops.md)
+- [Funkce](./functions.md)
+- [Třídy](./classes.md)
+- [return](./return.md)
+- [this](./this.md)
+
+## React
+
+- [Interpolace v JSX](./react/interpolation.md)
